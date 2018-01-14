@@ -3,9 +3,13 @@ body {
 }
 
 header {
-	height: 570px;
 	background-image: url(../img/top1.jpg);	
 	background-size: cover;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: 90%;
 }
 
 nav {
@@ -14,6 +18,14 @@ nav {
 
 nav ul li {
 	text-decoration: none;
+}
+
+nav .menu-superior a:hover {
+    background-color: #4aa786;
+    padding: 5px;
+    border-radius: 4px;
+    color: #FFF !important;
+    transition: all ease .2s;
 }
 
 img {
