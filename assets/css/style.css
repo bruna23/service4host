@@ -29,8 +29,14 @@ nav .menu-superior a:hover {
     transition: all ease-in-out .2s;
 }
 
+.nav-slim img {
+	height: 45px;
+	transition: all ease-in-out .5s;
+}
+
 img {
 	padding-left: 0px;
+	height: 70px;
 } 
 .busca {
 	width: 480px;
